@@ -13,4 +13,4 @@ npm install
 npm start
 ```
 
-See [Live Demo](https://react-business-landing-page.netlify.app/).
+See [Live Demo](https://thirsty-almeida-ac9180.netlify.app/).
