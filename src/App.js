@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Expertise from './components/sections/Expertise'
 import CeoSection from './components/sections/CeoSection'
 import LatestNews from './components/sections/LatestNews'
+import Features from './components/sections/Features'
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
 
       {/* Latest News */}
       <LatestNews/>
+
+      {/* Featured Section */}
+      <Features/>
 
       {/* Footer */}
       <Footer/>

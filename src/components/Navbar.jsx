@@ -53,7 +53,6 @@ const Navbar = () => {
               <div className="navbar-nav ml-auto">
                 <a className="nav-item nav-link search">
                   <input type="text"  placeholder="Search me. . . " />
-                  {/* <input type="text"  placeholder="Search me. . .🚀 " /> */}
                   <i className="fa fa-search"/>
                 </a>
                 <a href="#" className="nav-item nav-link login">Login</a>
@@ -67,7 +66,7 @@ const Navbar = () => {
         <div className="img-container">
           <div className="sogan">
             <h5>Welcome to Our</h5>
-            <h1>Solution to your Business</h1>
+            <h1>Solution to your <span>Business</span></h1>
             <p></p>
             <a href="#" className="contact-link"><i className="fa fa-life-ring"></i>  Contact Us</a>
           </div>

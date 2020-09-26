@@ -32,7 +32,7 @@ a{
     font-size: 90%;
     & a{
       text-decoration: none;
-      color: #6e9cff;
+      color: #00cecb;
     }
     & a:hover{
       color: #fbfbfb;
@@ -212,6 +212,10 @@ a{
         font-weight: 900;
         color: #fff;
         font-family: 'Walter Turncoat', cursive;
+
+        & span{
+          color: #00cecb
+        }
       }
   
       & h5{
@@ -280,7 +284,7 @@ a{
 
 // Expertise Section
 .expertise{
-  background: #eefaff;
+  background: #ebeef2;
 
   .expertise-content{
     transition: .2s ease-in-out;
@@ -301,7 +305,7 @@ a{
       height: 100%;
 
       .circle-icon-background{
-        color: #c0d4ff;
+        color: #00cecb;
         transition: .2s ease-in-out;
       }
 
@@ -383,7 +387,7 @@ a{
 
 // Latest news
 .latest-news{
-  background: #eefaff;
+  background: #ebeef2;
 
   .title{
     text-align: center;
@@ -455,9 +459,9 @@ a{
   }
 
   .latest-news-content:hover{
-    -webkit-box-shadow: 3px 3px 15px 6px #e0e0e0;
-    -moz-box-shadow: 3px 3px 15px 5px #e0e0e0;
-    box-shadow: 3px 3px 15px 6px #e0e0e0;
+    -webkit-box-shadow: 3px 3px 15px 6px #e9e9e9;
+    -moz-box-shadow: 3px 3px 15px 5px #e9e9e9;
+    box-shadow: 3px 3px 15px 6px #e9e9e9;
     transform: scale(1.01);
   }
 
@@ -553,7 +557,7 @@ a{
         }
 
         & a:hover{
-          color: #c0d4ff;
+          color: #00cecb;
         }
       }
 
@@ -561,15 +565,7 @@ a{
         font-weight: 600;
         font-size: 12px;
         letter-spacing: 0.05em;
-
-        & a{
-          text-decoration: none;
-          color: #fff;
-        }
-
-        & a:hover{
-          color: #c0d4ff;
-        }
+        color: #fff;
       }
     }
     
@@ -630,4 +626,24 @@ a{
     }
   }
   
+}
+
+
+// Featured Sections
+.feature{
+  .feature-content{
+    display: flex;
+    justify-content: space-around;
+
+    .img-content{
+      width: 180px;
+      height: auto;
+      margin: 0px 6px;
+
+      & img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
 }

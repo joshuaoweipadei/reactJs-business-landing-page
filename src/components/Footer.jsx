@@ -36,9 +36,9 @@ const Footer = () => {
               </div>
               <div className="footer-item" style={{marginTop: "40px"}}>
                 <h3>New Business</h3>
-                <p><a href="#">Email us: info@example.com</a></p>
-                <p><a href="#">Phone: 281.444.3901</a></p>
-                <p><a href="#">Fax: 949.333.3106</a></p>
+                <p>Email us: info@example.com</p>
+                <p>Phone: 281.444.3901</p>
+                <p>Fax: 949.333.3106</p>
               </div>
             </div>
           </div>
