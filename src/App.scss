@@ -29,7 +29,7 @@ a{
 
   & p{
     text-align: center;
-    font-size: 90%;
+    font-size: 97%;
     & a{
       text-decoration: none;
       color: #00cecb;
@@ -37,6 +37,12 @@ a{
     & a:hover{
       color: #fbfbfb;
       text-decoration: underline;
+    }
+  }
+
+  @media screen and (max-width: 426px){
+    & p{
+      font-size: 74%;
     }
   }
 }
